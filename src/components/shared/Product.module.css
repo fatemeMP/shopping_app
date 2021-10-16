@@ -1,0 +1,127 @@
+.container{
+    width: 250px;
+    border: 1px solid silver;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 0px 10px 50px;
+    padding: 8px;
+    text-align: center;
+    transition: all ease 0.2s;
+    overflow: hidden;
+}
+
+.container:hover{
+    box-shadow: 
+    rgb(0,0,0,0.09) 0px 2px 1px,
+    rgb(0,0,0,0.09) 0px 4px 2px,
+    rgb(0,0,0,0.09) 0px 8px 4px,
+    rgb(0,0,0,0.09) 0px 16px 8px,
+    rgb(0,0,0,0.09) 0px 32px 16px;
+}
+
+.cardImg {
+    width: 230px;
+    height: 200px;
+    margin: 10px;
+}
+
+.container h3{
+    color: #404040;
+    text-align: center;
+    margin: 25px 20px 15px;
+    font-size: 1.1rem;
+}
+
+.container span {
+    color:#5a5959 ;
+}
+
+.linkContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 20px 20px;   
+}
+
+.linkContainer a {
+    text-decoration: none;
+    color: #1a73e8;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+
+
+.buttonContainer button{
+    width: 120px;
+    height: 30px;
+    color: #fff;
+    background-color:#1a73e8;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    font-size: 0.9rem;
+    border: none;
+    box-shadow: rgb(50,50,93,0.25) 0px 4px 12px -2px,
+    rgb(0,0,0,0.3) 0px 3px 7px -3px;
+    margin-left: 5px;
+}
+
+.buttonContainer button:hover{
+    background-color:#065fd3;
+}
+
+.smallbutton{
+    width: 30px !important;
+    height: 30px !important;
+    font-size: 1rem !important;
+    font-weight: bold;
+    border:none;
+    color: #fff;
+    background-color:#1a73e8;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all ease 0.2s;
+    padding: 2px;
+    align-items: center;
+    box-shadow: rgb(50,50,93,0.25) 0px 4px 12px -2px,
+    rgb(0,0,0,0.3) 0px 3px 7px -3px;
+}
+
+.smallbutton:hover{
+    background-color:#065fd3;
+}
+
+.smallbutton img {
+    width: 20px;
+    align-items: center;
+    border:none;
+  
+}
+
+.container span{
+    font-size: 1rem;
+    font-weight: bold;
+    padding: 5px;
+}
+
+@media (max-width : 1000px){
+    .container{
+        width: 45%;
+    }
+}
+
+@media (max-width : 768px){
+    .container{
+        width: 200px;
+}
+
+@media (max-width : 555px){
+    .container{
+       width: 70%;
+    }
+    .cardImg{
+        width:230px;
+}
+}
+}
